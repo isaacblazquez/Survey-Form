@@ -1,0 +1,93 @@
+
+//GENERAL CODE
+
+body{
+	margin: 0;
+	font-family: Roboto,Arial;
+	background:#161616;
+	color: #212529;
+	line-height: 1.15;
+	font-size: 1em;
+	font-weight: 400;
+    line-height: 1.5;
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#3995DD;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+	color:#ddd;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #212529;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #44A0FC;
+  text-decoration: underline;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+b,strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
