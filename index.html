@@ -20,21 +20,65 @@
     </div>
   <div class="col-8">
 		<form class="form-group" id="survey-form">
+      <div class="form-row">
+        <div class="col-sm-5">
+          <label class="col-form-label"id="name-label">Nombre</label>
+          <input class="form-control form-control-lg" type="text" id="name" required>
+        </div>
+        <div class="col-sm">
+			    <label  class="col-form-label" id="number-label">Apellidos</label>
+			    <input class="form-control form-control-lg" type="text" id="surname">
+        </div>
+     </div>
       <div class="row">
         <div class="col-sm">
-          <label class="col-sm-2 col-form-label"id="name-label">Nombre</label>
-          <input class="form-control form-control-lg" type="text" id="name">
+          <label  class="col-form-label" id="email-label">Email</label>
+          <input class="form-control form-control-lg" type="email" id="email">
+        </div>  
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label  class="col-form-label" for="inputPais">Pais</label>
+          <input type="text" class="form-control form-control-lg" id="">
         </div>
-        <div class="col-sm-3">
-			    <label  class="col-sm-2 col-form-label" id="number-label">Edad</label>
-			    <input class="form-control form-control-lg" type="number" id="number">
+        <div class="form-group col-md-4">
+          <label  class="col-form-label" for="inputCiudad">Ciudad</label>
+          <input type="text" class="form-control form-control-lg" id="">
         </div>
-     </div>     
-			  <label  class="col-sm-2 col-form-label" id="email-label">Email</label>
-				<input class="form-control form-control-lg" type="email" id="email">
-     
+        <div class="form-group col-md-4">
+          <label  class="col-form-label" for="inputCodigo">Codigo Postal</label>
+          <input type="number" class="form-control form-control-lg" id="number" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm">
+          <div class="form-check"> 
+              <legend>Redes Sociales</legend>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+            <label class="form-check-label" for="defaultCheck1">Twitter</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+            <label class="form-check-label" for="defaultCheck2">Instagram</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+            <label class="form-check-label" for="defaultCheck2">Facebook</label>
+          </div>
+        </div>
+        <div class="col-sm">
+        </div> 
+          </div> 
+      </div>   
       <div class="row">
-      <button class="btn" type="submit">enviar</button>
+         <div class="col">
+            <button class="btn btn-outline-danger" type="submit">Cancelar todo</button>
+           </div>
+          <div class="col"></div>
+            <div class="col">
+              <button class="btn btn-primary" type="submit">Enviar Formulario</button>
+           </div>
       </div>
         </form>
 	</div>
