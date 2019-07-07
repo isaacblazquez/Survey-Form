@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>
+	Survey Form Proyect
+	</title>
+</head>
+<body>
+<div class="container">
+  <div class="center">
+	 <h1 id="title" class="center">Survey Form Proyect</h1>
+   <p id="description" class="lead">Here goes description!</d>
+	</div>
+</div>
+
+	<div class="container">
+   <div class="row">
+    <div class="col">
+      
+    </div>
+  <div class="col-8">
+		<form class="form-group" id="survey-form">
+      <div class="form-row">
+        <div class="col-sm-5">
+          <label class="col-form-label" id="name-label">Nombre</label>
+          <input type="text" class="form-control form-control-lg" placeholder="Su nombre" id="name" required>
+        </div>
+        <div class="col-sm">
+			    <label  class="col-form-label" id="surname-label">Apellidos</label>
+			    <input type="text" class="form-control form-control-lg"  id="surname">
+        </div>
+     </div>
+      <div class="row">
+        <div class="col-sm">
+          <label class="col-form-label" id="email-label">Email</label>
+          <input type="email" class="form-control form-control-lg" placeholder="Su correo electronico" id="email" required>
+        </div>  
+      </div>
+      <div class="form-row">
+        <div class="form-group col-sm">
+          <label  class="col-form-label" for="inputCiudad">Genero</label>
+          <select id="dropdown" class="form-control form-control-lg">
+          <option selected>Hombre</option>
+         <option>Mujer</option>
+          <option>Prefiero no indicarla</option>
+      </select>
+        </div>
+        <div class="form-group col-sm">
+          <label  class="col-form-label" for="inputCodigo" id="number-label">Edad</label>
+          <input type="number" class="form-control form-control-lg" min="18" max="99" id="number"  placeholder="Entre 18 y 99 años" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label  class="col-form-label" for="inputPais">Pais</label>
+          <input type="text" class="form-control form-control-lg" id="">
+        </div>
+        <div class="form-group col-md-4">
+          <label  class="col-form-label" for="inputCiudad">Ciudad</label>
+          <input type="text" class="form-control form-control-lg" id="">
+        </div>
+        <div class="form-group col-md-4">
+          <label  class="col-form-label" for="inputCiudad">Codigo Postal</label>
+          <input type="number" class="form-control form-control-lg" id="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="row">
+          <div class="col-sm">
+          <div class="form-check"> 
+              <legend>Redes Sociales</legend>
+            <input type="checkbox" class="form-check-input" value="Twitter" id="" checked>
+            <label class="form-check-label" for="defaultCheck1">Twitter</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input"  value="Instagram" id="">
+            <label class="form-check-label" for="defaultCheck2">Instagram</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" value="Facebook" id="">
+            <label class="form-check-label" for="defaultCheck2">Facebook</label>
+          </div>
+        </div>
+        <div class="col-sm">
+           <div class="form-check"> 
+              <legend>Suscripcion</legend>
+            <input type="radio" class="form-check-input" value="Gratuita" name="radios" id="">
+            <label class="form-check-label" for="suscripcion-gratuita">Gratuita</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" value="Mensual"name="radios" id="">
+            <label class="form-check-label" for="suscripcion-mensual">Mensual</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" value="Anual" name="radios" id="">
+            <label class="form-check-label" for="suscripcion-anual">Anual</label>
+          </div>
+        </div> 
+          </div> 
+      </div>  
+       <div class="form-row">
+         <div class="col-sm">
+         <label  class="col-form-label" for="inputCiudad">Comentarios</label>
+         <textarea class="form-control form-control-lg"  id="surname"></textarea>
+         </div>
+      </div>        
+      <div class="form-row">
+         <div class="col-sm">
+           </div>
+          <div class="col-sm"></div>
+            <div class="col-sm">
+              <button class="btn btn-primary" type="submit" id="submit">Enviar Formulario</button>
+           </div>
+      </div>
+        </form>
+	</div>
+     <div class="col">
+     </div>
+  </div>
+</div>
+</body>
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

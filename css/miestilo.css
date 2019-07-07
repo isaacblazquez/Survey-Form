@@ -1,0 +1,31 @@
+
+body{
+	background:#363636;
+	color: #212529;
+}
+
+h1,h2,h3,h4,h5,h6{color:#3995DD;
+	line-height: 1.15;
+}
+p{color:#ddd}
+
+
+a {
+  color: #212529;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #44A0FC;
+  text-decoration: underline;
+}
+
+.center{
+  text-align:center;
+}
+
+form{color:#ddd;}
+
+
